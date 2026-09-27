@@ -1,0 +1,14 @@
+{
+  "name": "mattnathan",
+  "description": "Matt Nathan's Claude Code plugins",
+  "owner": {
+    "name": "Matt Nathan"
+  },
+  "plugins": [
+    {
+      "name": "workers-projects",
+      "source": "./plugins/workers-projects",
+      "description": "Create or migrate personal projects onto Cloudflare Workers (Vue + Hono), with a private GitHub repo, CI, and tag-only deploys to <name>.<your-domain>"
+    }
+  ]
+}

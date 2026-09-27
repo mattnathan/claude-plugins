@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "ask": [
+      "Bash(wrangler deploy*)",
+      "Bash(npx wrangler deploy*)",
+      "Bash(pnpm wrangler deploy*)",
+      "Bash(pnpm exec wrangler deploy*)",
+      "Bash(pnpm dlx wrangler deploy*)",
+      "Bash(git push --tags*)",
+      "Bash(git push --follow-tags*)",
+      "Bash(git push origin v*)",
+      "Bash(git push origin tag*)",
+      "Bash(gh workflow run*)",
+      "Bash(gh release create*)"
+    ]
+  }
+}
