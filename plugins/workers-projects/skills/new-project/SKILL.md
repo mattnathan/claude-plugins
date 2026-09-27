@@ -36,6 +36,4 @@ These facts and `template/` are also the target for `/migrate-project`, so keep 
 
 ## Options the user might ask for
 
-- **Public repo:** create it as public instead of private.
 - **Public site** (when an Access wildcard is in use): the user adds a self-hosted Access app for `<name>.<DOMAIN>` with a **Bypass** policy. It overrides the wildcard app.
-- **Storage:** D1, KV and R2 have free tiers. Add the binding in `wrangler.jsonc`, then run `pnpm cf-typegen`.
