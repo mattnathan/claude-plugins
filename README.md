@@ -8,6 +8,7 @@ Skills for low-cost personal web projects on Cloudflare's free tier:
 
 - **`/new-project`** scaffolds a Vue + Vite frontend and a Hono API in one Cloudflare Worker. It creates a private GitHub repo, adds CI, and deploys to `https://<name>.<your-domain>`.
 - **`/migrate-project`** brings an existing project onto the same setup. It looks at the project first and proposes a plan, then changes nothing until you approve it.
+- **`screenshot`** lets Claude see your app's UI on WSL, using headless Windows Edge. Claude uses it on its own, and it handles animated pages and phone widths.
 
 Pushes only run CI. Production deploys happen when you push a `v*` tag, or run the Deploy workflow by hand. Each project includes Claude Code permission rules that make Claude ask before deploying.
 
