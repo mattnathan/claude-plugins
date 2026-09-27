@@ -1,6 +1,6 @@
 {
   "name": "workers-projects",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create or migrate personal projects onto Cloudflare Workers (Vue + Hono), with a private GitHub repo, CI, and tag-only deploys to <name>.<your-domain>",
   "author": { "name": "Matt Nathan" }
 }

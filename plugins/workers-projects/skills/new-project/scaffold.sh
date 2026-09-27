@@ -38,5 +38,5 @@ pnpm build
 
 git init -q -b main
 git add -A
-git commit -q -m "Initial scaffold for $NAME" -m "Co-Authored-By: Claude <noreply@anthropic.com>"
+git commit -q -m "Initial scaffold for $NAME"
 echo "Scaffolded $NAME at $DIR"
